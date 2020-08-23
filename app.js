@@ -58,3 +58,11 @@ function CallError() {
 function clearError() {
     document.querySelector('.alert').remove();
 }
+
+document.querySelector('#res-forms').addEventListener('submit',function(e){
+
+
+    document.querySelector('#results').style.display = 'none'
+
+    e.preventDefault();
+})
